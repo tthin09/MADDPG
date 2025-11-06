@@ -1,0 +1,64 @@
+<configuration>
+    <!-- Input files -->
+    <input>
+        <net-file value="vn.net.xml"/>
+        <route-files value="vn2.rou.xml"/>
+        <!-- vtype.xml already included in vn2.rou.xml by duarouter -->
+    </input>
+
+    <!-- Simulation time settings -->
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <!-- Vietnamese Traffic Simulation Settings -->
+    <processing>
+        <!-- Enable sublane model for motorcycle gap-filling behavior -->
+        <lateral-resolution value="0.6"/>
+
+        <!-- Collision detection and safety -->
+        <collision.action value="warn"/>
+        <collision.check-junctions value="true"/>
+        <collision.mingap-factor value="1.0"/>
+
+        <!-- Traffic light parameters -->
+        <tls.all-off value="false"/>
+        <tls.actuated.show-detectors value="true"/>
+
+        <!-- Random seed for reproducible results -->
+        <random value="true"/>
+        <seed value="42"/>
+    </processing>
+
+    <!-- Output and reporting -->
+    <output>
+        <tripinfo-output value="vn2.tripinfo.xml"/>
+        <summary-output value="vn2.summary.xml"/>
+    </output>
+
+    <report>
+        <!-- Reduce verbose warnings but maintain essential info -->
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <log value="vn2.simulation.log"/>
+
+        <!-- Statistics reporting -->
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <!-- GUI settings -->
+    <gui_only>
+        <!-- Auto-start simulation when GUI opens -->
+        <start value="false"/>
+        <!-- Delay between steps (ms): 0=fast, 100=normal, 1000=slow -->
+        <delay value="50"/>
+        <!-- Show right-of-way rules -->
+        <window-size value="1400,900"/>
+        <window-pos value="50,50"/>
+        <!-- Tracker window to follow vehicles -->
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>

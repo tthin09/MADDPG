@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<routes>
+  <include href="vtypes.add.xml"/>
+  <flow id="flow_0" type="motorcycle" fromJunction="n_west_0" toJunction="n_east_0" begin="0" end="3600" vehsPerHour="900" departLane="best" departSpeed="max"/>
+  <flow id="flow_1" type="car" fromJunction="n_west_0" toJunction="n_east_0" begin="0" end="3600" vehsPerHour="240" departLane="best" departSpeed="max"/>
+  <flow id="flow_2" type="bus_truck" fromJunction="n_west_0" toJunction="n_east_0" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max"/>
+  <flow id="flow_3" type="motorcycle" fromJunction="n_west_1" toJunction="n_east_1" begin="0" end="3600" vehsPerHour="900" departLane="best" departSpeed="max"/>
+  <flow id="flow_4" type="car" fromJunction="n_west_1" toJunction="n_east_1" begin="0" end="3600" vehsPerHour="240" departLane="best" departSpeed="max"/>
+  <flow id="flow_5" type="bus_truck" fromJunction="n_west_1" toJunction="n_east_1" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max"/>
+  <flow id="flow_6" type="motorcycle" fromJunction="n_west_2" toJunction="n_east_2" begin="0" end="3600" vehsPerHour="900" departLane="best" departSpeed="max"/>
+  <flow id="flow_7" type="car" fromJunction="n_west_2" toJunction="n_east_2" begin="0" end="3600" vehsPerHour="240" departLane="best" departSpeed="max"/>
+  <flow id="flow_8" type="bus_truck" fromJunction="n_west_2" toJunction="n_east_2" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max"/>
+  <flow id="flow_9" type="motorcycle" fromJunction="n_east_0" toJunction="n_west_0" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max"/>
+  <flow id="flow_10" type="car" fromJunction="n_east_0" toJunction="n_west_0" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max"/>
+  <flow id="flow_11" type="bus_truck" fromJunction="n_east_0" toJunction="n_west_0" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max"/>
+  <flow id="flow_12" type="motorcycle" fromJunction="n_east_1" toJunction="n_west_1" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max"/>
+  <flow id="flow_13" type="car" fromJunction="n_east_1" toJunction="n_west_1" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max"/>
+  <flow id="flow_14" type="bus_truck" fromJunction="n_east_1" toJunction="n_west_1" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max"/>
+  <flow id="flow_15" type="motorcycle" fromJunction="n_east_2" toJunction="n_west_2" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max"/>
+  <flow id="flow_16" type="car" fromJunction="n_east_2" toJunction="n_west_2" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max"/>
+  <flow id="flow_17" type="bus_truck" fromJunction="n_east_2" toJunction="n_west_2" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max"/>
+  <flow id="flow_18" type="motorcycle" fromJunction="n_north_0" toJunction="n_south_0" begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+  <flow id="flow_19" type="car" fromJunction="n_north_0" toJunction="n_south_0" begin="0" end="3600" vehsPerHour="80" departLane="best" departSpeed="max"/>
+  <flow id="flow_20" type="bus_truck" fromJunction="n_north_0" toJunction="n_south_0" begin="0" end="3600" vehsPerHour="20" departLane="best" departSpeed="max"/>
+  <flow id="flow_21" type="motorcycle" fromJunction="n_north_1" toJunction="n_south_1" begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+  <flow id="flow_22" type="car" fromJunction="n_north_1" toJunction="n_south_1" begin="0" end="3600" vehsPerHour="80" departLane="best" departSpeed="max"/>
+  <flow id="flow_23" type="bus_truck" fromJunction="n_north_1" toJunction="n_south_1" begin="0" end="3600" vehsPerHour="20" departLane="best" departSpeed="max"/>
+  <flow id="flow_24" type="motorcycle" fromJunction="n_north_2" toJunction="n_south_2" begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+  <flow id="flow_25" type="car" fromJunction="n_north_2" toJunction="n_south_2" begin="0" end="3600" vehsPerHour="80" departLane="best" departSpeed="max"/>
+  <flow id="flow_26" type="bus_truck" fromJunction="n_north_2" toJunction="n_south_2" begin="0" end="3600" vehsPerHour="20" departLane="best" departSpeed="max"/>
+  <flow id="flow_27" type="motorcycle" fromJunction="n_south_0" toJunction="n_north_0" begin="0" end="3600" vehsPerHour="375" departLane="best" departSpeed="max"/>
+  <flow id="flow_28" type="car" fromJunction="n_south_0" toJunction="n_north_0" begin="0" end="3600" vehsPerHour="100" departLane="best" departSpeed="max"/>
+  <flow id="flow_29" type="bus_truck" fromJunction="n_south_0" toJunction="n_north_0" begin="0" end="3600" vehsPerHour="25" departLane="best" departSpeed="max"/>
+  <flow id="flow_30" type="motorcycle" fromJunction="n_south_1" toJunction="n_north_1" begin="0" end="3600" vehsPerHour="375" departLane="best" departSpeed="max"/>
+  <flow id="flow_31" type="car" fromJunction="n_south_1" toJunction="n_north_1" begin="0" end="3600" vehsPerHour="100" departLane="best" departSpeed="max"/>
+  <flow id="flow_32" type="bus_truck" fromJunction="n_south_1" toJunction="n_north_1" begin="0" end="3600" vehsPerHour="25" departLane="best" departSpeed="max"/>
+  <flow id="flow_33" type="motorcycle" fromJunction="n_south_2" toJunction="n_north_2" begin="0" end="3600" vehsPerHour="375" departLane="best" departSpeed="max"/>
+  <flow id="flow_34" type="car" fromJunction="n_south_2" toJunction="n_north_2" begin="0" end="3600" vehsPerHour="100" departLane="best" departSpeed="max"/>
+  <flow id="flow_35" type="bus_truck" fromJunction="n_south_2" toJunction="n_north_2" begin="0" end="3600" vehsPerHour="25" departLane="best" departSpeed="max"/>
+</routes>

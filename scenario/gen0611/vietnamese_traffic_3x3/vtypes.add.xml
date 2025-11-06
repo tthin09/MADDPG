@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<additional>
+  <vType id="motorcycle" vClass="motorcycle" length="2.0" width="0.8" maxSpeed="16.67" accel="2.5" decel="4.5" color="yellow"/>
+  <vType id="car" vClass="passenger" length="4.5" width="1.8" maxSpeed="19.44" accel="2.0" decel="4.0" color="blue"/>
+  <vType id="bus_truck" vClass="bus" length="10.0" width="2.5" maxSpeed="13.89" accel="1.0" decel="3.0" color="red"/>
+</additional>

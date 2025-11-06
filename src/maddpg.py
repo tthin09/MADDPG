@@ -128,16 +128,25 @@ class MADDPG(nn.Module):
         self.actor_optimizers = [optim.Adam(self.actors[i].parameters(), lr=self.lr) for i in range(self.n_agents)]
         self.critic_optimizers = [optim.Adam(self.critics[i].parameters(), lr=self.lr) for i in range(self.n_agents)]
 
-    def select_action(self, obs, i):
-        obs = torch.from_numpy(obs).float()
-        if random.random() < self.eps:
-            action = np.random.randint(self.action_dim)
-            action_prob = np.zeros(2)
-            action_prob[action] = 1.0
+    def select_action(self, obs, agent_index):
+        obs = torch.tensor(obs, dtype=torch.float32).unsqueeze(0)
+        action_prob = self.actors[agent_index](obs).detach().numpy()
+        action_prob = action_prob[0]
+        
+        # print(f"Agent {agent_index}: action_prob.shape={action_prob.shape}, action_dim={self.action_dim}")
+
+        if np.random.rand() <= self.eps:
+            action = np.random.randint(0, self.action_dim)
         else:
-            action_prob = self.actors[i](obs).detach().numpy()
             action = np.argmax(action_prob)
-        return action, action_prob
+        
+        # print(f"Selected action={action}")
+
+        # Create one-hot encoded action
+        action_one_hot = np.zeros(self.action_dim)
+        action_one_hot[action] = 1.0
+
+        return action, action_one_hot
 
     def push(self, transition):
         before_state, actions, state, rewards, dones = transition

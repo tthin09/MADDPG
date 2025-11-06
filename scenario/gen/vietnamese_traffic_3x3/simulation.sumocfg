@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<configuration>
+  <input>
+    <net-file value="grid.net.xml"/>
+    <route-files value="routes.rou.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+  </time>
+  <processing>
+    <time-to-teleport value="-1"/>
+  </processing>
+  <routing>
+    <junction-taz value="true"/>
+  </routing>
+  <output>
+    <tripinfo-output value="tripinfo.xml"/>
+  </output>
+  <report>
+    <verbose value="true"/>
+    <no-warnings value="false"/>
+  </report>
+</configuration>

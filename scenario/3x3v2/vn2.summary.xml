@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-05 15:27:21 by Eclipse SUMO GUI Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn.net.xml"/>
+        <route-files value="C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn2.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn2.summary.xml"/>
+        <tripinfo-output value="C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn2.tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.6"/>
+        <collision.action value="warn"/>
+        <collision.check-junctions value="true"/>
+        <collision.mingap-factor value="1.0"/>
+        <tls.all-off value="false"/>
+        <tls.actuated.show-detectors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <log value="C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn2.simulation.log"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <random_number>
+        <random value="true"/>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <start value="false"/>
+        <delay value="50"/>
+        <window-size value="1400,900"/>
+        <window-pos value="50,50"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+</summary>

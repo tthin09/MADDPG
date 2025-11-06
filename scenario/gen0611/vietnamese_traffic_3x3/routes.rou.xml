@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<routes>
+  <include href="vtypes.add.xml"/>
+  <flow id="flow_0" type="motorcycle" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e42 e0 e2 e37" probability="0.7"/>
+      <route edges="e42 e0 e16 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_1" type="car" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e42 e0 e2 e37" probability="0.7"/>
+      <route edges="e42 e0 e16 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_2" type="bus_truck" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e42 e0 e2 e37" probability="0.7"/>
+      <route edges="e42 e0 e16 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_3" type="motorcycle" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e44 e4 e6 e39" probability="0.7"/>
+      <route edges="e44 e4 e18 e10 e41" probability="0.15"/>
+      <route edges="e44 e4 e17 e2 e37" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_4" type="car" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e44 e4 e6 e39" probability="0.7"/>
+      <route edges="e44 e4 e18 e10 e41" probability="0.15"/>
+      <route edges="e44 e4 e17 e2 e37" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_5" type="bus_truck" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e44 e4 e6 e39" probability="0.7"/>
+      <route edges="e44 e4 e18 e10 e41" probability="0.15"/>
+      <route edges="e44 e4 e17 e2 e37" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_6" type="motorcycle" begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e46 e8 e10 e41" probability="0.7"/>
+      <route edges="e46 e8 e19 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_7" type="car" begin="0" end="3600" vehsPerHour="120" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e46 e8 e10 e41" probability="0.7"/>
+      <route edges="e46 e8 e19 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_8" type="bus_truck" begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e46 e8 e10 e41" probability="0.7"/>
+      <route edges="e46 e8 e19 e6 e39" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_9" type="motorcycle" begin="0" end="3600" vehsPerHour="225" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e36 e3 e1 e43" probability="0.7"/>
+      <route edges="e36 e3 e16 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_10" type="car" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e36 e3 e1 e43" probability="0.7"/>
+      <route edges="e36 e3 e16 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_11" type="bus_truck" begin="0" end="3600" vehsPerHour="15" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e36 e3 e1 e43" probability="0.7"/>
+      <route edges="e36 e3 e16 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_12" type="motorcycle" begin="0" end="3600" vehsPerHour="225" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e38 e7 e5 e45" probability="0.7"/>
+      <route edges="e38 e7 e18 e9 e47" probability="0.15"/>
+      <route edges="e38 e7 e17 e1 e43" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_13" type="car" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e38 e7 e5 e45" probability="0.7"/>
+      <route edges="e38 e7 e18 e9 e47" probability="0.15"/>
+      <route edges="e38 e7 e17 e1 e43" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_14" type="bus_truck" begin="0" end="3600" vehsPerHour="15" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e38 e7 e5 e45" probability="0.7"/>
+      <route edges="e38 e7 e18 e9 e47" probability="0.15"/>
+      <route edges="e38 e7 e17 e1 e43" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_15" type="motorcycle" begin="0" end="3600" vehsPerHour="225" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e40 e11 e9 e47" probability="0.7"/>
+      <route edges="e40 e11 e19 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_16" type="car" begin="0" end="3600" vehsPerHour="60" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e40 e11 e9 e47" probability="0.7"/>
+      <route edges="e40 e11 e19 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_17" type="bus_truck" begin="0" end="3600" vehsPerHour="15" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e40 e11 e9 e47" probability="0.7"/>
+      <route edges="e40 e11 e19 e5 e45" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_18" type="motorcycle" begin="0" end="3600" vehsPerHour="150" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e24 e15 e13 e31" probability="0.7"/>
+      <route edges="e24 e15 e4 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_19" type="car" begin="0" end="3600" vehsPerHour="40" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e24 e15 e13 e31" probability="0.7"/>
+      <route edges="e24 e15 e4 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_20" type="bus_truck" begin="0" end="3600" vehsPerHour="10" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e24 e15 e13 e31" probability="0.7"/>
+      <route edges="e24 e15 e4 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_21" type="motorcycle" begin="0" end="3600" vehsPerHour="150" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e26 e19 e17 e33" probability="0.7"/>
+      <route edges="e26 e19 e6 e21 e35" probability="0.15"/>
+      <route edges="e26 e19 e5 e13 e31" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_22" type="car" begin="0" end="3600" vehsPerHour="40" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e26 e19 e17 e33" probability="0.7"/>
+      <route edges="e26 e19 e6 e21 e35" probability="0.15"/>
+      <route edges="e26 e19 e5 e13 e31" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_23" type="bus_truck" begin="0" end="3600" vehsPerHour="10" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e26 e19 e17 e33" probability="0.7"/>
+      <route edges="e26 e19 e6 e21 e35" probability="0.15"/>
+      <route edges="e26 e19 e5 e13 e31" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_24" type="motorcycle" begin="0" end="3600" vehsPerHour="150" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e28 e23 e21 e35" probability="0.7"/>
+      <route edges="e28 e23 e7 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_25" type="car" begin="0" end="3600" vehsPerHour="40" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e28 e23 e21 e35" probability="0.7"/>
+      <route edges="e28 e23 e7 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_26" type="bus_truck" begin="0" end="3600" vehsPerHour="10" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e28 e23 e21 e35" probability="0.7"/>
+      <route edges="e28 e23 e7 e17 e33" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_27" type="motorcycle" begin="0" end="3600" vehsPerHour="187" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e30 e12 e14 e25" probability="0.7"/>
+      <route edges="e30 e12 e4 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_28" type="car" begin="0" end="3600" vehsPerHour="50" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e30 e12 e14 e25" probability="0.7"/>
+      <route edges="e30 e12 e4 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_29" type="bus_truck" begin="0" end="3600" vehsPerHour="12" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e30 e12 e14 e25" probability="0.7"/>
+      <route edges="e30 e12 e4 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_30" type="motorcycle" begin="0" end="3600" vehsPerHour="187" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e32 e16 e18 e27" probability="0.7"/>
+      <route edges="e32 e16 e6 e22 e29" probability="0.15"/>
+      <route edges="e32 e16 e5 e14 e25" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_31" type="car" begin="0" end="3600" vehsPerHour="50" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e32 e16 e18 e27" probability="0.7"/>
+      <route edges="e32 e16 e6 e22 e29" probability="0.15"/>
+      <route edges="e32 e16 e5 e14 e25" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_32" type="bus_truck" begin="0" end="3600" vehsPerHour="12" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e32 e16 e18 e27" probability="0.7"/>
+      <route edges="e32 e16 e6 e22 e29" probability="0.15"/>
+      <route edges="e32 e16 e5 e14 e25" probability="0.15"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_33" type="motorcycle" begin="0" end="3600" vehsPerHour="187" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e34 e20 e22 e29" probability="0.7"/>
+      <route edges="e34 e20 e7 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_34" type="car" begin="0" end="3600" vehsPerHour="50" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e34 e20 e22 e29" probability="0.7"/>
+      <route edges="e34 e20 e7 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+  <flow id="flow_35" type="bus_truck" begin="0" end="3600" vehsPerHour="12" departLane="best" departSpeed="max">
+    <routeDistribution>
+      <route edges="e34 e20 e22 e29" probability="0.7"/>
+      <route edges="e34 e20 e7 e18 e27" probability="0.3"/>
+    </routeDistribution>
+  </flow>
+</routes>

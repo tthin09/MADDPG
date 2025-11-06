@@ -1,0 +1,19 @@
+Loading net-file from 'C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn.net.xml' ... done (9ms).
+Loading route-files incrementally from 'C:\Users\TPC\Desktop\Code\HK251\DACN\sumo-marl\scenario\3x3v2\vn2.rou.xml'
+Loading done.
+Simulation ended at time: 0.00.
+Performance:
+ Duration: 4591.86s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles:
+ Inserted: 0 (Loaded: 8)
+ Running: 0
+ Waiting: 0
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00

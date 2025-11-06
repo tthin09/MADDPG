@@ -2,8 +2,8 @@ import pandas as pd
 import xml.etree.ElementTree as et
 
 
-def get_average_travel_time():
-    xtree = et.parse("./scenario/sample.tripinfo.xml")
+def get_average_travel_time(path_tripinfo):
+    xtree = et.parse(path_tripinfo)
     xroot = xtree.getroot()
 
     rows = []

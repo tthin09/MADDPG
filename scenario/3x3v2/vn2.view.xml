@@ -1,0 +1,39 @@
+<viewsettings>
+    <!-- Viewport settings for 3x3 grid network -->
+    <scheme name="real world">
+        <!-- Road coloring -->
+        <opengl antialiase="1" dither="1"/>
+
+        <!-- Vehicle visualization -->
+        <vehicles vehicleQuality="2" vehicleSize="1.0" vehicleText="1">
+            <!-- Show vehicle IDs -->
+            <colorScheme name="by speed">
+                <entry color="0,0.3,0,1" threshold="0.0"/>
+                <entry color="0.5,0.5,0,1" threshold="5.0"/>
+                <entry color="0,0.8,0,1" threshold="10.0"/>
+            </colorScheme>
+        </vehicles>
+
+        <!-- Junction visualization -->
+        <junctions junctionMode="2" drawLinkTLIndex="1" drawLinkJunctionIndex="1" junctionSize="0.5"/>
+
+        <!-- Traffic light visualization -->
+        <additionals addMode="1" addSize="1.0"/>
+
+        <!-- Show street names -->
+        <streets streetMode="0" streetName="1" edgeName="1" edgeNameSize="75"/>
+
+        <!-- Show waiting time for visualization -->
+        <legend showSizeLegend="1" showColorLegend="1"/>
+    </scheme>
+
+    <!-- Default viewport centered on network -->
+    <viewport zoom="100" x="400" y="400" angle="0"/>
+
+    <!-- Background settings -->
+    <background backgroundColor="0.8,0.8,0.8" showGrid="1" gridXSize="100" gridYSize="100"/>
+
+    <!-- Delay for visualization (milliseconds) -->
+    <delay value="50"/>
+
+</viewsettings>
